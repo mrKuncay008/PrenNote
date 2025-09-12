@@ -11,13 +11,14 @@ plugins {
 
 android {
     namespace = "com.example.prennote"
-    compileSdk = 34
+    compileSdk = 33
     defaultConfig {
         applicationId = "com.example.prennote"
         minSdk = 28
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
+        multiDexEnabled = true
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -72,4 +73,5 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion")
     // Annotation processor
     ksp("androidx.lifecycle:lifecycle-compiler:$lifecycleVersion")
+    implementation ("androidx.multidex:multidex:2.0.1")
 }
