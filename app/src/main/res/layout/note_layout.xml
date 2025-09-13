@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="@drawable/pink_border"
+            android:background="@drawable/green_border"
             android:padding="16dp">
 
             <TextView
@@ -37,7 +37,7 @@
                 android:text="Description"
                 android:textSize="14sp"
                 android:fontFamily="@font/poppins"
-                android:textColor="@color/black"/>
+                android:textColor="?android:attr/textColorPrimary"/>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
