@@ -20,7 +20,7 @@
             android:fontFamily="@font/poppins"
             android:text="Edit Note."
             android:textStyle="bold"
-            android:textColor="@color/red"
+            android:textColor="@color/black"
             android:textSize="24sp" />
 
         <EditText
