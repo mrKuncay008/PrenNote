@@ -3,18 +3,17 @@ import org.apache.tools.ant.util.JavaEnvUtils.VERSION_11
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id ("kotlin-kapt")
     id ("kotlin-parcelize")
     id("com.google.devtools.ksp")
     id ("androidx.navigation.safeargs")
 }
 
 android {
-    namespace = "com.example.prennote"
+    namespace = "com.example.notesroompractice"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.prennote"
+        applicationId = "com.example.notesroompractice"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
