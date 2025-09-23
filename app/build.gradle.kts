@@ -10,11 +10,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.notesroompractice"
+    namespace = "com.example.prennote"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.notesroompractice"
+        applicationId = "com.example.prennote"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
